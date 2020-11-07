@@ -7,7 +7,7 @@ var requests = require("requests");
 var adr = 'http://api.openweathermap.org/data/2.5/weather?q=dehradun&appid=d6bc506ba3c8d0180aad4ddebf32a139';  
 
 
-const  port = process.env.port || 8000;
+const  port = process.env.PORT || 8000;
 
 
 const homeFile = fs.readFileSync('structure.html','utf-8');
